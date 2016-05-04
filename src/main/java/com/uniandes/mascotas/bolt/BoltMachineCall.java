@@ -42,14 +42,8 @@ public class BoltMachineCall extends BaseRichBolt {
                 BasicDBObject document =  new BasicDBObject();
                 
                 
-                    
-                    ////termina bloque mongo
-                    
-                    
-                    
-                    
+                //Aca va el llamado a la ML. Si el resultado es afirmativo se ejecutan las siguientes instrucciones.
                 
-                   // System.out.println(String.format("%s===>%s", word, count.toString()));
                 if(!interes.isEmpty()){    
                 document.put("cuenta", "'@jhlopez86'");    
                 document.put("interes", "'" + interes + "'");
